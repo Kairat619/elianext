@@ -2,7 +2,8 @@ import { FarzaaContext } from '@/context/FarzaaContext'
 import Link from 'next/link'
 import React, { useContext } from 'react'
 
-const FeaturedProducts = ({productStaticData}) => {
+
+const FeaturedProducts = ({ productStaticData}) => {
     const {
         addToCart,
         addToWishlist,
