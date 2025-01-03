@@ -19,6 +19,7 @@ const DoorShopMain = ({
   galleryData,
   blogStaticData
 }) => {
+  // ChatGPT Code
   console.log('Product Static Data in DoorShopMain:', productStaticData);
   return (
     <main>

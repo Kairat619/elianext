@@ -9,6 +9,7 @@ const FeaturedProducts = ({ productStaticData}) => {
         addToWishlist,
         allProduct
     } = useContext(FarzaaContext)
+    // ChatGPT Code
     console.log('Product Static Data in FeaturedProducts:', productStaticData);
   return (
     <section className="featured-product-section">
