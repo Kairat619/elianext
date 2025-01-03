@@ -4,14 +4,14 @@ import React, { useContext, useState } from 'react';
 
 const categories = [
     { name: null, label: 'All Door' },
-    { name: 'Plastic Door', label: 'Plastic Door' },
-    { name: 'Wooden Door', label: 'Wooden Door' },
-    { name: 'Double Layer Door', label: 'Double layer Door' },
-    { name: 'Chinese Door', label: 'Chinese Door' },
-    { name: 'Steel Door', label: 'Steel Door' },
-    { name: 'Solid Color Door', label: 'Solid Color Door' },
-    { name: 'Panel Door', label: 'Panel door' },
-    { name: 'Security Door', label: 'Security door' }
+    { name: 'Anti-Aging', label: 'Anti-Aging' },
+    { name: 'Beauty Oils', label: 'Beauty Oils' },
+    { name: 'Cleansing', label: 'Cleansing' },
+    { name: 'Moisturisers', label: 'Moisturisers' },
+    { name: 'Eye Care', label: 'Eye Care' },
+    { name: 'Self-Tanners', label: 'Self-Tanners' },
+    { name: 'Face Serum', label: 'Face Serum' },
+    { name: 'Toners & Mists', label: 'Toners & Mists' }
 ];
 
 const ProductCategoryList = () => {

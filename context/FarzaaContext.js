@@ -1,6 +1,7 @@
 import { createContext, useEffect, useRef, useState } from 'react';
 import { toast } from 'react-toastify';
 
+
 const FarzaaContext = createContext();
 
 
@@ -193,6 +194,7 @@ const FarzaaContextProvider = ({ children }) => {
   };
 
   // Product Quick View Modal
+
   const [isProductViewOpen, setIsProductViewOpen] = useState(false)
   const [productInView, setProductInView] = useState(null)
   const handleProductViewClose = () => {

@@ -1,4 +1,5 @@
 import React from 'react'
+
 import BannerSection from '../banner/BannerSection'
 import CategorySection from '../category/CategorySection'
 import CollectionSection from '../collection/CollectionSection'
@@ -18,6 +19,7 @@ const DoorShopMain = ({
   galleryData,
   blogStaticData
 }) => {
+  console.log('Product Static Data in DoorShopMain:', productStaticData);
   return (
     <main>
         <BannerSection firstBannerData={firstBannerData}/>

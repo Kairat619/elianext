@@ -45,31 +45,31 @@ const CollectionSection = () => {
                 <Nav.Item>
                     <Nav.Link eventKey='all' role='button'>
                         <span className="filter-nav-order">01</span>
-                        <span className="filter-nav-name">All Door</span>
+                        <span className="filter-nav-name">All Cosmetics</span>
                     </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link eventKey='Solid Color Door' role='button'>
+                    <Nav.Link eventKey='Anti-Aging' role='button'>
                         <span className="filter-nav-order">02</span>
-                        <span className="filter-nav-name">Solid Color Door</span>
+                        <span className="filter-nav-name">Anti-Aging</span>
                     </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link eventKey='Double Layer Door' role='button'>
+                    <Nav.Link eventKey='Eye Care' role='button'>
                         <span className="filter-nav-order">03</span>
-                        <span className="filter-nav-name">Double Layer Door</span>
+                        <span className="filter-nav-name">Eye Care </span>
                     </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link eventKey='Chinese Door' role='button'>
+                    <Nav.Link eventKey='Beauty Oils' role='button'>
                         <span className="filter-nav-order">04</span>
-                        <span className="filter-nav-name">Chinese Door</span>
+                        <span className="filter-nav-name">Beauty Oils</span>
                     </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link eventKey='Plastic Door' role='button'>
+                    <Nav.Link eventKey='Moisturisers' role='button'>
                         <span className="filter-nav-order">05</span>
-                        <span className="filter-nav-name">Plastic Door</span>
+                        <span className="filter-nav-name">Moisturisers</span>
                     </Nav.Link>
                 </Nav.Item>
 

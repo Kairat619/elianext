@@ -8,11 +8,12 @@ const FeaturedProducts = ({productStaticData}) => {
         addToWishlist,
         allProduct
     } = useContext(FarzaaContext)
+    console.log('Product Static Data in FeaturedProducts:', productStaticData);
   return (
     <section className="featured-product-section">
         <div className="container">
             <div className="fz-1-section-heading">
-                <h2 className="fz-section-title">Featured Product</h2>
+                <h2 className="fz-section-title">Featured Products</h2>
             </div>
 
             <div className="row gy-4">

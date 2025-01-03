@@ -3,6 +3,7 @@ import { useRouter } from 'next/router'; // Import the useRouter hook
 import { useEffect, useState } from 'react';
 import ProductDetailsMain from '../../component/main/ProductDetailsMain';
 
+
 const ProductDetails = () => {
   const router = useRouter(); // Initialize the router
   const { id } = router.query; // Get the productId from the query parameters

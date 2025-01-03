@@ -4,14 +4,14 @@ import React, { useContext } from 'react';
 const ProductTag = () => {
   const {selectedTags, handleTagSelection} = useContext(FarzaaContext)
   const tags = [
-    'Plastic Door',
-    'Wooden Door',
-    'Double Layer Door',
-    'Chinese Door',
-    'Steel Door',
-    'Solid Color Door',
-    'Panel Door',
-    'Security Door'
+    'Anti-Aging',
+    'Beauty Oils',
+    'Cleansing',
+    'Moisturisers',
+    'Eye Care',
+    'Self-Tanners',
+    'Face Serum',
+    'Toners & Mists'
   ];
 
   return (
