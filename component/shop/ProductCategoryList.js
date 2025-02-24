@@ -3,7 +3,7 @@ import { allProductList } from '@/data/Data';
 import React, { useContext, useState } from 'react';
 
 const categories = [
-    { name: null, label: 'All Door' },
+    { name: null, label: 'All Products' },
     { name: 'Anti-Aging', label: 'Anti-Aging' },
     { name: 'Beauty Oils', label: 'Beauty Oils' },
     { name: 'Cleansing', label: 'Cleansing' },
