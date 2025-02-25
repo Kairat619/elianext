@@ -4,7 +4,7 @@ const GallerySection = ({galleryData}) => {
   return (
     <section className="fz-gallery-section fz-1-gallery-section">
             <div className="fz-1-section-heading">
-                <h2 className="fz-section-title text-center">@elia.cosmetic</h2>
+                <h2 className="fz-section-title text-center">@arusoul.cosmetic</h2>
             </div>
 
             <div className="row g-0 justify-content-center">
