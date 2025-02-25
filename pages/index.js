@@ -63,7 +63,7 @@ export default function Home({
     <>
       <Head>
         <title>Arusoul - Cosmetics Shop</title>
-        <meta name="description" content="Developed By Azizur Rahman" />
+        <meta name="description" content="Maintained By Builda.cc" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/favicon.png" />
       </Head>
